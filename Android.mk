@@ -14,6 +14,7 @@ include $(LOCAL_PATH)/android-webrtc.mk
 LOCAL_ARM_MODE := arm
 LOCAL_MODULE := libwebrtc_audio_preprocessing
 LOCAL_MODULE_TAGS := optional
+LOCAL_CLANG := false
 
 LOCAL_WHOLE_STATIC_LIBRARIES := \
     libwebrtc_aec \
@@ -55,6 +56,7 @@ include $(LOCAL_PATH)/android-webrtc.mk
 LOCAL_ARM_MODE := arm
 LOCAL_MODULE := libwebrtc_audio_coding
 LOCAL_MODULE_TAGS := optional
+LOCAL_CLANG := false
 
 LOCAL_WHOLE_STATIC_LIBRARIES := \
     libwebrtc_base \
@@ -85,6 +87,7 @@ include $(LOCAL_PATH)/android-webrtc.mk
 LOCAL_ARM_MODE := arm
 LOCAL_MODULE := libwebrtc_audio_coding_gnustl_static
 LOCAL_MODULE_TAGS := optional
+LOCAL_CLANG := false
 
 LOCAL_WHOLE_STATIC_LIBRARIES := \
     libwebrtc_isac_gnustl_static \

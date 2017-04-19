@@ -17,6 +17,7 @@ include $(LOCAL_PATH)/../../../../android-webrtc.mk
 LOCAL_MODULE_CLASS := STATIC_LIBRARIES
 LOCAL_MODULE := libwebrtc_ns
 LOCAL_MODULE_TAGS := optional
+LOCAL_CLANG := false
 LOCAL_GENERATED_SOURCES :=
 LOCAL_SRC_FILES := \
     noise_suppression_x.c \
@@ -65,6 +66,7 @@ LOCAL_ARM_MODE := arm
 LOCAL_MODULE_CLASS := STATIC_LIBRARIES
 LOCAL_MODULE := libwebrtc_ns_neon
 LOCAL_MODULE_TAGS := optional
+LOCAL_CLANG := false
 
 ifeq ($(TARGET_ARCH), arm64)
 # new nsx_core_neon.S does not compile with clang or gas.

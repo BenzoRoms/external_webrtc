@@ -16,6 +16,7 @@ LOCAL_ARM_MODE := arm
 LOCAL_MODULE_CLASS := STATIC_LIBRARIES
 LOCAL_MODULE := libwebrtc_apm_utility
 LOCAL_MODULE_TAGS := optional
+LOCAL_CLANG := false
 LOCAL_SRC_FILES := \
     delay_estimator.c \
     delay_estimator_wrapper.c

@@ -16,6 +16,7 @@ LOCAL_ARM_MODE := arm
 LOCAL_MODULE_CLASS := STATIC_LIBRARIES
 LOCAL_MODULE := libwebrtc_intell
 LOCAL_MODULE_TAGS := optional
+LOCAL_CLANG := false
 LOCAL_CPP_EXTENSION := .cc
 LOCAL_SRC_FILES := \
     intelligibility_enhancer.cc \

@@ -15,6 +15,7 @@ include $(LOCAL_PATH)/../../../../android-webrtc.mk
 LOCAL_MODULE_CLASS := STATIC_LIBRARIES
 LOCAL_MODULE := libwebrtc_aec
 LOCAL_MODULE_TAGS := optional
+LOCAL_CLANG := false
 LOCAL_SRC_FILES := \
     echo_cancellation.c \
     aec_resampler.c \
